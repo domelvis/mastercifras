@@ -1,0 +1,349 @@
+/* Estilos gerais do corpo da página */
+body {
+    text-align: center;
+    color: hsl(60, 100%, 50%);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Estilo para o nome do site */
+.site-name {
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+/* Estilo para centralizar conteúdo */
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo para redes sociais */
+.redes-sociais {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.redes-sociais a {
+    margin: 0 10px;
+    color: hsl(202, 84%, 50%);
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: hsla(0, 0%, 20%, 0.795);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para a barra de navegação horizontal */
+.horizontal-container {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+.horizontal-list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.horizontal-list li {
+    margin-right: 40px;
+}
+
+.horizontal-list a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+/* Estilo para o cabeçalho */
+.header-wrapper {
+    background-color: hsl(241, 100%, 43%);
+    width: 1500px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+/* Estilo para o texto com brilho */
+.shining-text {
+    font-size: 20rem;
+    font-weight: bold;
+    color: hwb(60 0% 0%) (0, 255, 34);
+    position: relative;
+    animation: shine 3s infinite;
+    margin-top: 30px;
+}
+
+/* Estilo da navegação */
+nav ul {
+    list-style: none;
+    display: flex;
+    background-color: #444;
+    padding: 10px;
+    justify-content: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+/* Estilo geral da página */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+}
+
+/* Plano de fundo da página inteira */
+body {
+    background-color: hsla(221, 69%, 6%, 0.894);
+}
+
+/* Efeito para o banner e a galeria */
+.gallery {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.image-container:hover .image-overlay {
+    opacity: 1;
+}
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Estilo inicial para elementos que serão animados */
+.animate {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 0.5s;
+}
+
+/* Texto brilhante */
+.shining-text {
+    font-size: 70px;
+    text-align: center;
+    animation: shining 2s infinite;
+}
+
+@keyframes shining {
+    0% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
+
+/* Nav-h ul */
+#nav-h ul {
+    background-color: #0000ff;
+}
+
+/* h1 */
+h1 {
+    color: rgb(228, 157, 26);
+}
+
+/* .image-container */
+.image-container {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.image-container:hover .image-overlay {
+    opacity: 1;
+}
+
+/* .animated-image */
+.animated-image:hover img {
+    animation: slideOutAndIn 3s infinite;
+}
+
+/* .sections-container */
+.sections-container {
+    text-align: center;
+}
+
+/* .courses-container */
+.courses-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .cursos-disponiveis */
+.cursos-disponiveis {
+    text-align: center;
+}
+
+.course {
+    display: inline-block;
+    margin: 40px;
+    text-align: center;
+}
+
+.image:hover {
+    transform: scale(1.1);
+}
+
+.image {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    margin: 0 auto;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.fade-effect {
+    animation: fade 3s linear infinite;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Classes para redes sociais */
+.fab {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #fff;
+}
+
+.texto-direitos {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Classe para botões */
+.btn {
+    display: inline-block;
+    background-color: hsl(241, 100%, 43%);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: hsl(241, 100%, 35%);
+}
+
+.gallery {
+display: flex;
+justify-content: center;
+}
+
+.image-container {
+text-align: center;
+margin: 0 20px; /* Adicione margem entre as imagens */
+}
+/* Estilo para os ícones */
+.course-icon {
+    width: 60px; /* Defina o tamanho desejado para os ícones (por exemplo, 100px x 100px) */
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+}
+.course.comum h3 {
+    color: #666; /* Ou outra cor mais clara de sua escolha */
+    margin-top: 10px; /* Adicione margem superior, se necessário */
+}
+/* Estilo para o rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para os links no rodapé */
+.footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Espaçamento superior entre a imagem e os links */
+}
+
+.footer-links li {
+    margin: 0 10px; /* Espaçamento entre os links */
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilo para os links quando estão sendo clicados ou passam o mouse por cima */
+.footer-links a:hover {
+    color: #ffcc00;
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="iconmaster.png" type="image/x-icon">
+  <link rel="icon" type="image/x-icon" href="img/Icon_mastercifras.png" sizes="20x20">
+   <title>Master Cifras Rock - Iniciar Sessão</title>
+ 
+  <style> 
+   
+    body {
+      background: radial-gradient(ellipse at center, #333 0%, #000 100%);
+      color: #fff;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    /* Estilos CSS inline para o conteúdo */
+    .content {
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .centered-content {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .login-title {
+      font-size: 36px; /* Tamanho semelhante ao h1 */
+      margin-bottom: 5px;
+    }
+
+    form {
+      max-width: 300px;
+      margin: 0 auto;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      background-color: rgba(255, 255, 255, 0.8);
+      color: #333;
+    }
+
+    input[type="submit"] {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Cifras e Músicas</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html" class="login-btn">Criar conta / retornar</a></li> 
+    </ul>
+  </nav>
+  <div class="centered-content content">
+    <h2 class="login-title">Iniciar Sessão</h2>
+    <form action="processar_login.php" method="post" onsubmit="return validarFormulario();">
+      <label for="username">Nome de Usuário:</label>
+      <input type="text" id="username" name="username" required><br><br>
+      <label for="password">Senha:</label>
+      <input type="password" id="password" name="password" required><br><br>
+      <input type="submit" value="Entrar">
+    </form>
+  
+  <script>
+    // Script JavaScript inline para validar o formulário
+    function validarFormulario() {
+      var username = document.getElementById("username").value;
+      var password = document.getElementById("password").value;
+
+      if (username === "" || password === "") {
+        alert("Por favor, preencha todos os campos.");
+        return false; // Impede o envio do formulário se campos estiverem em branco
+      }
+
+      return true; // Permite o envio do formulário se todos os campos estiverem preenchidos
+    }
+  </script>
+  
+    <footer>
+        <img src="img/icon.png" alt="Sua Imagem" class="fade-effect" style="width: 250px; height: 250px;">
+        <h2>Redes Sociais</h2>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/seu-link-linkedin" target="_blank">
+                <img src="img/linkedin.png" alt="linkedin" style="width:  45px; height: 45px;">
+            </a>
+            </a>
+            <a href="https://www.twitter.com/seu-link-twitter" target="_blank">
+                <img src="img/twiter.png" alt="twitter" style="width: 45px; height: 45px;">
+            </a>
+            <a href="https://www.instagram.com/seu-link-instagram" target="_blank">
+                <img src="img/instagram.png" alt="LinkedIn" style="width: 45px; height:45px;">
+            </a>
+            <a href="https://pt-br.facebook.com/login/device-based/regular/login/" target="_blank">
+                <img src="img/fb.png" alt="img/tok.png" style="height: 45px; height: 45px;">
+            </a>
+            <a href="https://web.whatsapp.com/" target="_blank">
+                <img src="img/whatsapp.png" alt="img/whatsapp" style="width: 45px; height: 45px;">
+            </a>
+            <a href="https://www.youtube.com/channel/UCfSkB5u1QG40rZeMYoVUY5w" target="_blank">
+                <img src="img/youtube.png" alt="img/YouTube" style="width: 45px; height: 45px;">
+            </a>
+            <a href="https://www.tiktok.com/seu-link-tiktok" target="_blank">
+                <img src="img/tok.png" alt="img/tik tok.png" style="width: 45px; height: 45px;">
+            </a>
+            <a href="https://web.telegram.org/a/" target="_blank">
+                <img src="img/telegram.png" alt="img/Mensagem.png" style="width: 45px; height: 45px;">
+            </a>
+            <a href="" target="_blank">
+            <img src="img/messenger.png" alt="img/Mensagem.png" style="width: 45px; height: 45px;">
+            </a>
+            <a href="" target="_blank">
+                <img src="img/skype.png" alt="img/skype.png" style="width: 45px; height: 45px;">
+                </a>
+        </div>
+        <ul>
+          <li><a href="index.html" class="login-btn">Retornar ao inicio</a></li> 
+        </ul>
+        </div>
+            <p class="texto-direitos">2023 Master cifras Rock Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</body>
+</html>

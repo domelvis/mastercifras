@@ -1,0 +1,114 @@
+
+/* Estilos CSS para o corpo da página */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+/* Estilos CSS para o container centralizado */
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Estilos CSS para o fundo do container */
+.container-background {
+  background-color: #000;
+  opacity: 0.9;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+/* Estilos CSS para o título */
+h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  border-bottom: 3px solid #fff; /* Linha horizontal de destaque */
+  padding-bottom: 10px;
+}
+
+/* Estilos CSS para o formulário */
+.form-container {
+  background-color: #000;
+  max-width: 600px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #fff;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #fff;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+textarea {
+  resize: vertical;
+  height: 150px;
+}
+
+button[type="submit"] {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos CSS para o rodapé */
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+.texto-direitos {
+  margin-top: 10px;
+}
+.footer-mais-cima {
+    margin-top: --80px; /* Ajuste o valor conforme necessário para o posicionamento desejado */
+  }
+  

@@ -1,0 +1,170 @@
+/* Reset de estilos para todos os elementos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo para o corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo para o cabeçalho */
+header {
+  background-color: #3333337d;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 24px;
+  margin-bottom: 10px; /* Adicione esta linha para definir a margem inferior entre o título e o afinador */
+}
+
+/* Estilo para links */
+a {
+  text-decoration: none;
+  color: #0073e6;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Estilo para listas */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Estilo para seções */
+section {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para títulos */
+h2 {
+  font-size: 20px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo para o corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo para o cabeçalho */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Estilo para o título da página */
+.page-title {
+  font-size: 48px; /* Tamanho maior para o título principal */
+  margin-bottom: 10px; /* Espaçamento entre os títulos */
+}
+
+/* Estilo para o subtítulo */
+.sub-title {
+  font-size: 24px; /* Tamanho menor para o subtítulo */
+}
+
+/* Estilo para links */
+a {
+  text-decoration: none;
+  color: #0073e6;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo para o destaque do título "Mastercifras" */
+.title-highlight {
+  background-color: #0000008c; /* Cor de destaque */
+  color: #fff; /* Cor do texto */
+  padding: 20px 0; /* Espaçamento interno */
+  text-align: center;
+}
+
+.page-title {
+  font-size: 36px; /* Tamanho do título */
+}
+
+/* Estilo para o segundo título "Afinador" */
+.sub-title {
+  text-align: center;
+  font-size: 24px; /* Tamanho do segundo título */
+}
+/* Estilo para os links de exemplo */
+.example-link {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+body {
+  text-align: center;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+/* Estilo para o corpo da página */
+body {
+  background-color: #000; /* Cor de fundo preto */
+  color: #fff; /* Cor do texto */
+}
+/* Estilo para o texto dentro das seções */
+
+.content h2,
+.content ul,
+.content li {
+  color: #333; /* Defina a cor do texto que você deseja para os elementos dentro das seções */
+}
+/* Estilo para o elemento <footer> */
+footer {
+  font-size: 20px; /* Tamanho da fonte */
+  text-align: center; /* Alinhamento centralizado */
+  margin-top: 20px; /* Espaçamento superior */
+  color: #fff; /* Cor do texto */
+  background-color: #333; /* Cor de fundo */
+  padding: 10px; /* Espaçamento interno */
+  border-radius: 5px; /* Borda arredondada */
+}

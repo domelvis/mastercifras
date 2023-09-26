@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>Master Cifras</title>
+    <style>
+        /* Estilos CSS aqui */
+        body{font-family:Arial,sans-serif;margin:0;padding:0;background-color:#000;color:#fff;overflow:hidden}nav{background-color:#333;padding:10px;text-align:center}main{padding:20px}h1{font-size:36px;text-align:center}button{background-color:#007bff;color:#fff;border:none;padding:10px 20px;margin-right:10px;cursor:pointer}button:hover{background-color:#0056b3}.button-container{text-align:center}.pdf-container{width:100%;height:100vh;overflow:hidden}.pdf-container iframe{width:100%;height:100%}
+    </style>
+</head>
+<body>
+    <nav>
+        <!-- Título acima dos botões -->
+        <h1>Master Cifras</h1>
+        <div class="button-container">
+            <button id="scroll-button">Ativar Rolagem Automática</button>
+            <button id="print-button">Imprimir</button>
+            <button id="zoom-in-button">Zoom In (+)</button>
+            <button id="zoom-out-button">Zoom Out (-)</button>
+        </div>
+    </nav>
+    <main>
+        <!-- Container para o arquivo PDF (iframe em tela cheia) -->
+        <div class="pdf-container">
+            <iframe src="c:\Users\Elvis\Desktop\A_LITTLE_RESPECT.pdf" type="application/pdf"></iframe>
+        </div>
+    </main>
+    <script>
+       document.addEventListener("DOMContentLoaded",function(){const a=document.getElementById("scroll-button"),b=document.getElementById("print-button"),c=document.getElementById("zoom-in-button"),d=document.getElementById("zoom-out-button"),e=document.querySelector(".pdf-container iframe");let f,g=!1;a.addEventListener("click",function(){g=!g,g?f=setInterval(function(){e.contentWindow.scrollBy(0,-5)},50):clearInterval(f)}),b.addEventListener("click",function(){e.contentWindow.print()});let h=1;c.addEventListener("click",function(){h+=.1,e.style.transform=`scale(${h})`}),d.addEventListener("click",function(){h-=.1,e.style.transform=`scale(${h})`})});
+    </script>
+</body>
+</html>

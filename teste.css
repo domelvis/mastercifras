@@ -1,0 +1,66 @@
+css
+/* Reset de estilos padrão */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    color: #fff;
+}
+
+/* Estilos para a página de cifras */
+.cifras {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.cifra {
+    background-color: #333;
+    border: 2px solid #222;
+    padding: 20px;
+    margin: 10px;
+    width: 400px;
+    text-align: center;
+}
+
+.cifra h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para a página de reprodução de áudio com vídeo */
+.reproducao {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Estilos para a página de cursos com vídeos */
+.curso {
+    background-color: #222;
+    border: 2px solid #111;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.curso h2 {
+    color: #ffcc00; /* Amarelo para destaque em temas dark */
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+/* Seu CSS existente aqui */
+
+/* Adicione um estilo para o contêiner das cifras */
+.cifra-container {
+    max-height: 300px; /* Altura máxima das cifras antes de mostrar a barra de rolagem */
+    overflow: auto; /* Adiciona uma barra de rolagem quando o conteúdo exceder a altura máxima */
+}

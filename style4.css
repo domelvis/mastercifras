@@ -1,0 +1,85 @@
+/* styles.css */
+
+/* ... (outros estilos) */
+
+/* Estiliza o nome do site */
+.site-name {
+  margin-top: 20px; /* Adiciona margem superior */
+  font-size: 20px; /* Define o tamanho da fonte */
+}
+
+/* Centraliza o conteúdo dentro do centro da página */
+.center-content {
+  display: flex;
+  flex-direction: column; /* Organiza o conteúdo verticalmente */
+  align-items: center; /* Centraliza os itens horizontalmente */
+}
+
+/* Estilo para os cursos disponíveis */
+.course {
+  margin: 20px; /* Adiciona margem em torno dos cursos */
+  text-align: center; /* Centraliza o texto dos cursos */
+}
+
+/* Estiliza os links dos cursos */
+.course a {
+  text-decoration: none; /* Remove sublinhado dos links */
+  color: hwb(241 8% 10%); /* Define a cor do texto dos links */
+}
+
+/* Estiliza o ícone dos cursos */
+.course i {
+  font-size: 5px; /* Define o tamanho do ícone */
+  margin-bottom: 5px; /* Adiciona margem inferior ao ícone */
+}
+
+/* Estiliza as redes sociais */
+.redes-sociais {
+  margin-top: 20px; /* Adiciona margem superior */
+  font-size: 24px; /* Define o tamanho da fonte das redes sociais */
+}
+
+/* Estiliza os links das redes sociais */
+.redes-sociais a {
+  margin: 0 10px; /* Adiciona margem horizontal aos links */
+  color: #ffff00; /* Define a cor dos links */
+}
+
+/* Estiliza o rodapé */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 80px;
+}
+
+/* ... (outros estilos) */
+body {
+  background-image: url('img/baner.jpg');
+  background-size: cover; /* Isso faz com que a imagem cubra todo o fundo */
+  background-repeat: no-repeat; /* Evita que a imagem de fundo se repita */
+}
+/* Estilos gerais do corpo da página */
+body {
+  text-align: center;
+  color: hsl(60, 100%, 50%);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Isso fixa a imagem de fundo */
+  background-position: center center; /* Isso centraliza a imagem de fundo */
+  /* Outros estilos... */
+}
+ /* Estilos para as seções Afinador e Karaoke ficarem na horizontal */
+ .sections-container {
+  display: flex;
+}
+
+.karaoke-section,
+.afinador-section {
+  flex: 1;
+  margin: 10px;
+}
